@@ -1,0 +1,32 @@
+# Logs and Airflow specific files
+logs/
+airflow.db
+airflow.cfg
+/dags/__pycache__/
+/dags/config.py
+/airflow-webserver.pid
+
+# Python cache files
+__pycache__/
+*.pyc
+*.cfg
+
+# Virtual environment
+venv/
+env/
+
+# dbt files
+target/
+dbt_packages/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
